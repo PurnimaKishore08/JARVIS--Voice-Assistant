@@ -75,6 +75,10 @@ if __name__ == "__main__":
             speak("Opening YouTube.")
             webbrowser.open("https://youtube.com")
 
+        elif 'open jio hotstar' in query:
+            speak("Opening JioHotstar")
+            webbrowser.open("https://www.hotstar.com/in/home?ref=%2Fin")
+
         elif 'open google' in query:
             speak("Opening Google.")
             webbrowser.open("https://google.com")
